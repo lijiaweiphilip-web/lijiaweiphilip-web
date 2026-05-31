@@ -20,6 +20,10 @@ Reviewed examples:
 - [Jason Liu](https://github.com/jxnl): RAG education, structured-output tooling, and consulting lessons tied into one practical profile.
 - [Christopher Olah](https://github.com/colah): interpretability explanations surfaced through visual, inspectable writing and code.
 - [Been Kim](https://beenkim.github.io/): interpretability work framed through tests, counterexamples, tutorials, and scope conditions.
+- [Omar Khattab](https://github.com/okhat): research systems such as DSPy and ColBERT presented as reusable frameworks.
+- [Jerry Liu](https://github.com/jerryjliu): RAG infrastructure identity around data ingestion, indexing, and querying.
+- [Lilian Weng](https://github.com/lilianweng): long-form technical synthesis as a conceptual map for AI systems.
+- [Harrison Chase](https://github.com/hwchase17): LLM app orchestration tied to debugging, testing, and observability.
 
 ## Borrowed Patterns
 
@@ -34,6 +38,7 @@ Reviewed examples:
 | Developer-experience promise | A tool family should feel easy to try quickly | Give each repo a 10-minute path and consistent commands |
 | Ecosystem bridge | Related projects should point to each other clearly | Use the profile README as the map, not a pile of links |
 | Evaluable error analysis | Strong AI tooling makes failure modes inspectable | Add compact galleries, reports, and counterexamples before claims |
+| RAG traceability | Retrieval projects should expose the path from input to evidence to answer | Show claim, citation, verifier signal, repair action, and limitation together |
 
 ## Modeling Step
 

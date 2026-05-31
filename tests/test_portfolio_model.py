@@ -53,3 +53,4 @@ def test_completed_public_improvements_shift_next_actions() -> None:
 
     assert "real vLLM smoke run" in rows["l40s-llm-bench"]["next_experiment"]
     assert "10-minute reader path" in rows["arc-xai-reasoning"]["next_experiment"]
+    assert "release decision note" in rows["FaithfulRepair"]["next_experiment"]

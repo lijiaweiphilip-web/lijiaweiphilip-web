@@ -38,8 +38,8 @@ PROJECTS = [
         "technical_depth": 5,
         "focus_alignment": 5,
         "release_safety": 3,
-        "profile_clarity": 3,
-        "next_action": "Keep public package synthetic until manuscript/preprint strategy is stable.",
+        "profile_clarity": 4,
+        "next_action": "Keep public package synthetic until manuscript/preprint strategy is stable; prepare release decision notes.",
     },
     {
         "project": "arc-xai-reasoning",
@@ -147,6 +147,30 @@ PROFILE_REFERENCES = [
         "pattern": "interpretability_evaluation",
         "lesson": "Explanation methods need explicit tests, counterexamples, and scope conditions.",
     },
+    {
+        "profile": "Omar Khattab",
+        "url": "https://github.com/okhat",
+        "pattern": "research_to_framework",
+        "lesson": "A profile can connect research systems, retrieval methods, and reusable frameworks.",
+    },
+    {
+        "profile": "Jerry Liu",
+        "url": "https://github.com/jerryjliu",
+        "pattern": "rag_reader_path",
+        "lesson": "RAG projects become useful when ingestion, indexing, querying, and evaluation are easy to trace.",
+    },
+    {
+        "profile": "Lilian Weng",
+        "url": "https://github.com/lilianweng",
+        "pattern": "long_form_synthesis",
+        "lesson": "Long-form technical notes can act as the conceptual entrypoint for code artifacts.",
+    },
+    {
+        "profile": "Harrison Chase",
+        "url": "https://github.com/hwchase17",
+        "pattern": "observability_loop",
+        "lesson": "LLM app frameworks gain community value by linking orchestration, evaluation, and observability.",
+    },
 ]
 
 
@@ -178,9 +202,9 @@ PROJECT_PATTERN_COVERAGE = [
         "project": "FaithfulRepair",
         "flagship_clarity": 4,
         "evidence_trace": 5,
-        "teaching_asset": 2,
-        "developer_experience": 2,
-        "notebook_to_software": 2,
+        "teaching_asset": 3,
+        "developer_experience": 3,
+        "notebook_to_software": 3,
         "ecosystem_bridge": 3,
         "minimal_infrastructure": 2,
         "release_boundary": 3,
@@ -212,7 +236,7 @@ PROJECT_PATTERN_COVERAGE = [
 
 NEXT_EXPERIMENTS = {
     "l40s-llm-bench": "Add the first real vLLM smoke run when GPU/server access is ready.",
-    "FaithfulRepair": "Add a synthetic end-to-end demo notebook that shows claim, citation, verifier signal, repair action, and limitation.",
+    "FaithfulRepair": "Prepare a public-safe release decision note before exposing any manuscript-adjacent material.",
     "arc-xai-reasoning": "Add a 10-minute reader path across logger, taxonomy, coverage, audit, and composition gallery.",
     "birdclef2026-xai": "Add a synthetic failure taxonomy report that explains false positives, weak evidence, and competition-safe boundaries.",
 }
