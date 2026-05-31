@@ -33,6 +33,8 @@ verified, and safe to release.
 I keep a local GitHub portfolio signal model to decide which projects are ready
 to publish or pin. It scores reproducibility, evidence artifacts, community
 utility, technical depth, focus alignment, release safety, and profile clarity.
+It also ranks the next small optimization experiments by comparing my projects
+against patterns borrowed from strong AI and open-source GitHub profiles.
 
 See `docs/github_profile_inspiration.md` for the inspiration scan and modeling
 logic.
