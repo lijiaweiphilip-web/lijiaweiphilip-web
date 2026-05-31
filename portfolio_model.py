@@ -45,13 +45,13 @@ PROJECTS = [
         "project": "arc-xai-reasoning",
         "status": "local public-safe shell",
         "reproducibility": 4,
-        "evidence_artifacts": 4,
+        "evidence_artifacts": 5,
         "community_utility": 3,
         "technical_depth": 3,
         "focus_alignment": 4,
         "release_safety": 4,
         "profile_clarity": 3,
-        "next_action": "Add public-safe rule composition toy cases before release.",
+        "next_action": "Add a 10-minute reader path across the synthetic explanation reports.",
     },
     {
         "project": "birdclef2026-xai",
@@ -123,6 +123,30 @@ PROFILE_REFERENCES = [
         "pattern": "ecosystem_bridge",
         "lesson": "A public profile can act as a product/community map across many related tools.",
     },
+    {
+        "profile": "Hamel Husain",
+        "url": "https://github.com/hamelsmu",
+        "pattern": "evaluable_error_analysis",
+        "lesson": "AI evals projects should expose error-analysis artifacts readers can inspect.",
+    },
+    {
+        "profile": "Jason Liu",
+        "url": "https://github.com/jxnl",
+        "pattern": "practical_learning_surface",
+        "lesson": "A profile can connect consulting, tutorials, talks, and reusable AI tooling.",
+    },
+    {
+        "profile": "Christopher Olah",
+        "url": "https://github.com/colah",
+        "pattern": "explanation_gallery",
+        "lesson": "Interpretability work becomes stronger when explanations are visual and inspectable.",
+    },
+    {
+        "profile": "Been Kim",
+        "url": "https://beenkim.github.io/",
+        "pattern": "interpretability_evaluation",
+        "lesson": "Explanation methods need explicit tests, counterexamples, and scope conditions.",
+    },
 ]
 
 
@@ -143,10 +167,10 @@ PROJECT_PATTERN_COVERAGE = [
         "project": "l40s-llm-bench",
         "flagship_clarity": 5,
         "evidence_trace": 5,
-        "teaching_asset": 2,
-        "developer_experience": 3,
-        "notebook_to_software": 2,
-        "ecosystem_bridge": 2,
+        "teaching_asset": 3,
+        "developer_experience": 4,
+        "notebook_to_software": 3,
+        "ecosystem_bridge": 3,
         "minimal_infrastructure": 4,
         "release_boundary": 5,
     },
@@ -164,10 +188,10 @@ PROJECT_PATTERN_COVERAGE = [
     {
         "project": "arc-xai-reasoning",
         "flagship_clarity": 3,
-        "evidence_trace": 4,
+        "evidence_trace": 5,
         "teaching_asset": 3,
-        "developer_experience": 2,
-        "notebook_to_software": 2,
+        "developer_experience": 3,
+        "notebook_to_software": 3,
         "ecosystem_bridge": 2,
         "minimal_infrastructure": 2,
         "release_boundary": 4,
@@ -187,9 +211,9 @@ PROJECT_PATTERN_COVERAGE = [
 
 
 NEXT_EXPERIMENTS = {
-    "l40s-llm-bench": "Add a 10-minute public smoke-run tutorial with one tiny local/fake-server path and one real vLLM placeholder.",
+    "l40s-llm-bench": "Add the first real vLLM smoke run when GPU/server access is ready.",
     "FaithfulRepair": "Add a synthetic end-to-end demo notebook that shows claim, citation, verifier signal, repair action, and limitation.",
-    "arc-xai-reasoning": "Add three toy rule-composition cases with before/after explanations and a compact failure gallery.",
+    "arc-xai-reasoning": "Add a 10-minute reader path across logger, taxonomy, coverage, audit, and composition gallery.",
     "birdclef2026-xai": "Add a synthetic failure taxonomy report that explains false positives, weak evidence, and competition-safe boundaries.",
 }
 

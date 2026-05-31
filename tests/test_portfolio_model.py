@@ -44,6 +44,12 @@ def test_optimization_queue_has_actionable_gaps() -> None:
     rows = rank_optimization_opportunities()
 
     assert rows[0]["publish_priority"] >= rows[-1]["publish_priority"]
-    assert rows[0]["project"] == "l40s-llm-bench"
     assert all(row["top_gaps"] for row in rows)
     assert all(row["next_experiment"] for row in rows)
+
+
+def test_completed_public_improvements_shift_next_actions() -> None:
+    rows = {row["project"]: row for row in rank_optimization_opportunities()}
+
+    assert "real vLLM smoke run" in rows["l40s-llm-bench"]["next_experiment"]
+    assert "10-minute reader path" in rows["arc-xai-reasoning"]["next_experiment"]

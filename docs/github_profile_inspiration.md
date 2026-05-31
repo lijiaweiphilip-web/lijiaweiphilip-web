@@ -16,6 +16,10 @@ Reviewed examples:
 - [tiangolo](https://github.com/tiangolo): one developer-experience promise across FastAPI, Typer, SQLModel, templates, and CLI tooling.
 - [Armin Ronacher](https://github.com/mitsuhiko): small durable infrastructure tools that compound into long-term trust.
 - [Hugging Face](https://github.com/huggingface): ecosystem map across libraries, datasets, model tooling, and community infrastructure.
+- [Hamel Husain](https://github.com/hamelsmu): evals, error analysis, and notebook/dev-experience workflows as public learning artifacts.
+- [Jason Liu](https://github.com/jxnl): RAG education, structured-output tooling, and consulting lessons tied into one practical profile.
+- [Christopher Olah](https://github.com/colah): interpretability explanations surfaced through visual, inspectable writing and code.
+- [Been Kim](https://beenkim.github.io/): interpretability work framed through tests, counterexamples, tutorials, and scope conditions.
 
 ## Borrowed Patterns
 
@@ -29,6 +33,7 @@ Reviewed examples:
 | Book/notebook bridge | Learning artifacts can be the public entrypoint | Add safe synthetic notebooks or tutorials when they teach the method |
 | Developer-experience promise | A tool family should feel easy to try quickly | Give each repo a 10-minute path and consistent commands |
 | Ecosystem bridge | Related projects should point to each other clearly | Use the profile README as the map, not a pile of links |
+| Evaluable error analysis | Strong AI tooling makes failure modes inspectable | Add compact galleries, reports, and counterexamples before claims |
 
 ## Modeling Step
 
