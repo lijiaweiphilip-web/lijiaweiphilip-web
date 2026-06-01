@@ -13,7 +13,7 @@ My current work is organized around one question: how can AI systems make their 
 
 ## Featured Work
 
-- **[l40s-llm-bench](https://github.com/lijiaweiphilip-web/l40s-llm-bench)** - reproducible LLM-serving benchmark scaffold with dry runs, sanity checks, workload profiles, regression comparison, and run manifests.
+- **[l40s-llm-bench](https://github.com/lijiaweiphilip-web/l40s-llm-bench)** - primary open-source maintainer project: reproducible LLM-serving benchmark scaffold with `v0.1.1`, passing CI, roadmap issues, synthetic/fake-server validation examples, and run manifests.
 - **FaithfulRepair** - working manuscript on evidence-insufficient citations in multi-hop RAG. A public-safe repository shell has synthetic repair, verifier, distractor, and trace experiments.
 - **BirdCLEF+ 2026 XAI** - active bioacoustic AI competition workflow with synthetic submission, explanation-report, and release-checklist utilities.
 - **ARC XAI Reasoning** - exploratory explainable reasoning baseline with synthetic transformation logs, failure taxonomy, rule coverage, and explanation audits.
@@ -23,7 +23,7 @@ verified, and safe to release.
 
 | Project | Current signal | Next action |
 |---|---|---|
-| l40s-llm-bench | Public flagship | Add first real vLLM smoke run when GPU/server access is ready |
+| l40s-llm-bench | Public flagship; v0.1.1 release, CI, roadmap issues, synthetic/fake-server examples | Add first real vLLM smoke run when GPU/server access is ready |
 | FaithfulRepair | Strong research direction, paper-sensitive | Keep public package synthetic until manuscript strategy is stable |
 | ARC XAI Reasoning | Useful explanation sandbox | Add public-safe rule composition toy cases |
 | BirdCLEF+ 2026 XAI | Competition-supporting utilities | Keep real notebooks private and publish only synthetic diagnostics |
