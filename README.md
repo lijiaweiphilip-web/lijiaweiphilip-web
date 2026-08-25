@@ -31,5 +31,4 @@ decision support.
 - [CV](https://lijiaweiphilip-web.github.io/assets/li-jiawei-academic-cv.pdf)
 
 Public repositories contain only claims and artifacts that pass a disclosure
-and reproducibility check. Double-blind manuscripts, reviewer material, private
-data, credentials, and application workflow documents are excluded.
+and reproducibility check.
