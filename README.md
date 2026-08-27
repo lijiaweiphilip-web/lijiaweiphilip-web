@@ -28,9 +28,7 @@ decision support.
 
 ## Links
 
-- [Homepage](https://lijiaweiphilip-web.github.io)
 - [LinkedIn](https://www.linkedin.com/in/philipjiaweili)
-- [CV](https://lijiaweiphilip-web.github.io/assets/li-jiawei-academic-cv.pdf)
 
 Public repositories contain only claims and artifacts that pass a disclosure
 and reproducibility check.
