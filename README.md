@@ -9,6 +9,8 @@ reproducible ML.
 ## Selected research
 
 - **Accepted ACM HCOMP 2026 full paper, sole author:** *From Answers to Audit Opinions: Cost-Aware Expert Verification of Financial Artifacts from Tool-Using LLM Agents*. The paper studies evidence-grounded verification of financial artifacts produced by tool-using LLM agents.
+- **Accepted long archival workshop paper at GroundLM, an EMNLP 2026 workshop, sole author:** *The Citation Expansion Trap: Operating-Point Control for Fixed-Answer Multi-Hop RAG Citation Repair* (2026).
+- **[cutoffguard](https://github.com/lijiaweiphilip-web/cutoffguard):** public `v0.2.0` installable research software for cutoff-aware temporal validation, including information-availability, label-maturity, Run Manifest v1, and future-perturbation diagnostics; it does not certify arbitrary hidden pipelines as leakage-free.
 - **[spy-public-market-model-validation](https://github.com/lijiaweiphilip-web/spy-public-market-model-validation):** public `v0.2.1` SPY adjusted-close model-validation release using purged walk-forward folds, finance and ML baselines, QLIKE/RMSE, hash-verified artifacts, and a reproducible synthetic demo. It makes no trading or alpha claim.
 - **[auditable-financial-agents](https://github.com/lijiaweiphilip-web/auditable-financial-agents):** public `v0.2.0` research-code companion implementing the paper's core research-label and evidence/materiality logic on deterministic synthetic examples; it is not the official HCOMP implementation or a full empirical reproduction.
 - **[l40s-llm-bench](https://github.com/lijiaweiphilip-web/l40s-llm-bench):** public `v0.1.6` reproducible LLM inference harness with configuration capture, raw-result schemas, CI, manifests, and a truthful no-real-GPU-results boundary.
